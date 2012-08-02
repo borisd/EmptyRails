@@ -1,0 +1,28 @@
+
+== Welcome to Rails template 
+
+This template includes 
+1. Twitter Bootstrap
+2. SimpleForm (boostrap themed)
+3. Devise
+4. Cancan
+5. InheritedResources
+6. Heroku
+7. Better irb tools
+
+== Next steps
+
+= Devise
+
+Generate your model
+  rails generate devise MODEL
+
+= Bootstrap theme
+
+Add twitter bootstrap theme to views
+  rails g bootstrap:themed Posts
+
+= Cancan
+
+Setup in 
+  app/models/ability.rb

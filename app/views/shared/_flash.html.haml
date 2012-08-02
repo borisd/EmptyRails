@@ -1,0 +1,13 @@
+- if flash and flash[:error]
+  %p.alert.alert-error
+    %strong Error:
+    = flash[:error]
+    %button{type:"button",:class=>"close",'data-dismiss'=>"alert"}
+      x
+
+- if flash and flash[:notice]
+  %p.alert.alert-info
+    = flash[:notice]
+    %button{type:"button",:class=>"close",'data-dismiss'=>"alert"}
+      x
+
